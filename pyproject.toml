@@ -1,0 +1,29 @@
+[project]
+name = "python-example-project"
+version = "0.0.1"
+description = "Template Repository for Python Projects!"
+authors = [
+    {name = "Dennis Jabs", email = ""},
+]
+dependencies = [
+    "numpy>=2.2.5",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.optional-dependencies]
+moduleX = [
+    "matplotlib>=3.10.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/nobodyPerfecZ/python-project-template"
+Issues = "https://github.com/nobodyPerfecZ/python-project-template/issues"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
