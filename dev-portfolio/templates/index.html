@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D. Jabs - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 100px 0;
+    }
+
+    .hero-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 4px solid #ffffff55;
+    }
+
+    .section-title {
+      margin-bottom: 40px;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      transition: 0.3s ease;
+    }
+
+    .project-year {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background-color: #f8f9fa;
+      color: #6c757d;
+      font-size: 0.8rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.25rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <div class="container">
+      <h1 class="display-4">Hi, I'm D. Jabs</h1>
+      <p class="lead">
+        A passionate AI enthusiast focused on Machine Learning (ML), Reinforcement Learning (RL), Computer Vision (CV),
+        Natural Language Processing (NLP) and Automated Machine Learning (AutoML).
+      </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="text-center section-title">
+        <h2>About Me</h2>
+      </div>
+      <p class="lead text-center">
+        I'm a passionate AI enthusiast with a deep fascination for emerging technologies that drive the future of
+        intelligent systems. My interests lie in Machine Learning (ML), Reinforcement Learning (RL), Computer Vision
+        (CV), Natural Language Processing (NLP) and Automated Machine Learning (AutoML). I enjoy exploring how these
+        technologies can be applied to solve real-world problems—whether it's teaching machines to perceive and
+        understand visual data, designing agents that learn through interaction, or automating the machine learning
+        pipeline to accelerate innovation. I’m driven by curiosity and a commitment to building systems that learn,
+        adapt, and make smarter decisions over time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <div class="text-center section-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <!-- Project Card Example -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2025</div>
+              <h5 class="card-title">Developer Portfolio</h5>
+              <p class="card-text">
+                Personal Developer Portfolio Website built with Python and Flask.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/dev-portfolio" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat above div for more projects -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2025</div>
+              <h5 class="card-title">Awesome Python Leetcode</h5>
+              <p class="card-text">Collection of efficient Python Solutions to solve LeetCode Problems.</p>
+              <a href="https://github.com/nobodyPerfecZ/awesome-python-leetcode" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2025</div>
+              <h5 class="card-title">
+                ReCAPTCHAv2 Solver
+              </h5>
+              <p class="card-text">
+                Finetuned Vision Transformer (ViT) on the reCAPTCHAv2-29k
+                dataset.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/vit-finetuned-patch16-224-recaptchav2-v1"
+                class="btn btn-outline-dark mt-auto" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2024</div>
+              <h5 class="card-title">Gymboy</h5>
+              <p class="card-text">
+                Gameboy (Color) Environments in Gymnasium for Training Reinforcement Learning Agents.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/gymboy" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2024</div>
+              <h5 class="card-title">Manim Stock Visualization</h5>
+              <p class="card-text">
+                Self-implemented Python Framework for visualizing stock prices with manimCE.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/manim-stock-visualization" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2024</div>
+              <h5 class="card-title">ReCAPTCHAv2 Dataset</h5>
+              <p class="card-text">
+                Multi-Label Classification Dataset built from reCAPTCHAv2 Images.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/recaptchav2-29k" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2023</div>
+              <h5 class="card-title">PyDecisionTree</h5>
+              <p class="card-text">
+                Self-implemented Python Framework of Decision Trees (DTs) for Regression and Classification Tasks with
+                Numpy.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/py-decision-tree" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2023</div>
+              <h5 class="card-title">PyNeuralNetwork</h5>
+              <p class="card-text">
+                Self-implemented Python Framework of Neural Networks (NNs) for Regression and Classification Tasks
+                with Numpy.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/py-neural-network" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2023</div>
+              <h5 class="card-title">PyGaussian</h5>
+              <p class="card-text">
+                Self-implemented Python Framework of Gaussian Processes (GPs) for Regression Tasks with Numpy.
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/py-gaussian" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2023</div>
+              <h5 class="card-title">PyCSPSolver</h5>
+              <p class="card-text">
+                Self-implemented Python Framework for solving Constraint Satisfaction Problems (CSPs).
+              </p>
+              <a href="https://github.com/nobodyPerfecZ/py-csp-solver" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="project-year">2021</div>
+              <h5 class="card-title">Discord Bot</h5>
+              <p class="card-text">Interactive Music Bot built for Discord Servers that allows users to play, queue
+                and manage music.</p>
+              <a href="https://github.com/nobodyPerfecZ/discord-bot" class="btn btn-outline-dark mt-auto"
+                target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+      <p class="lead">Feel free to explore my work and get in touch via GitHub.</p>
+      <a href="https://github.com/nobodyPerfecZ" target="_blank" class="btn btn-dark">Visit My GitHub Profile</a>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 D. Jabs. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
