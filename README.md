@@ -1,12 +1,12 @@
 <div align="middle">
     <h1>
         <p>
-            <img src="docs/images/logo.png", alt="Logo", width="300" height="300" />
+            <img src="docs/images/logo.png" alt="Logo" height="300" />
         </p>
-        Python Project Template 🧩
+        Personal Developer Portfolio Website 📖
         <br>
         <span style="font-size: large">
-            Template Repository for Python Projects!
+            Portfolio Website in Python and Flask 🎨
         </span>
         <br>
         <a href="https://github.com/psf/black">
@@ -24,15 +24,7 @@
     </h1>
 </div>
 
-This repository is a template for standardize python projects including library creation or software development.
-
-## Installation ⚙️
-
-TODO:
-
-## Usage 🚀
-
-TODO:
+This repository contains code to build a simple developer portfolio website written in Python and Flask.
 
 ## Development 🔧
 
